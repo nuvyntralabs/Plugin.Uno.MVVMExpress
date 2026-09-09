@@ -13,6 +13,7 @@ namespace Plugin.Uno.MVVMExpress.Hosting;
 /// <summary>Uno Platform host entry point.</summary>
 public static class UnoMvvmExpressServiceCollectionExtensions
 {
+    /// <summary>Registers Core plus the family dispatcher, window context, and lifecycle.</summary>
     public static IServiceCollection AddUnoMvvmExpress(
         this IServiceCollection services,
         Action<MvvmExpressOptions>? configure = null)
@@ -23,6 +24,7 @@ public static class UnoMvvmExpressServiceCollectionExtensions
         return UseUnoMvvmExpress(services, options);
     }
 
+    /// <summary>Registers MVVMExpress on <paramref name="builder"/>.</summary>
     public static IHostApplicationBuilder UseUnoMvvmExpress(
         this IHostApplicationBuilder builder,
         Action<MvvmExpressOptions>? configure = null)
@@ -32,6 +34,7 @@ public static class UnoMvvmExpressServiceCollectionExtensions
         return builder;
     }
 
+    /// <summary>Registers MVVMExpress on <paramref name="services"/>.</summary>
     public static IServiceCollection UseUnoMvvmExpress(
         this IServiceCollection services,
         Action<MvvmExpressOptions>? configure)

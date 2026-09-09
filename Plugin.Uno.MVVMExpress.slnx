@@ -14,6 +14,9 @@
     <Project Path="tests/Plugin.Uno.MVVMExpress.Validation.Tests/Plugin.Uno.MVVMExpress.Validation.Tests.csproj" />
     <Project Path="tests/Plugin.Uno.MVVMExpress.Pagination.Tests/Plugin.Uno.MVVMExpress.Pagination.Tests.csproj" />
     <Project Path="tests/Plugin.Uno.MVVMExpress.Templates.Tests/Plugin.Uno.MVVMExpress.Templates.Tests.csproj" />
+    <Project Path="tests/Plugin.Uno.MVVMExpress.Navigation.Tests/Plugin.Uno.MVVMExpress.Navigation.Tests.csproj" />
+    <Project Path="tests/Plugin.Uno.MVVMExpress.Dialogs.Tests/Plugin.Uno.MVVMExpress.Dialogs.Tests.csproj" />
+    <Project Path="tests/Plugin.Uno.MVVMExpress.Host.Tests/Plugin.Uno.MVVMExpress.Host.Tests.csproj" />
   </Folder>
   <Folder Name="/samples/">
     <Project Path="samples/Playground/Plugin.Uno.MVVMExpress.Playground.csproj" />

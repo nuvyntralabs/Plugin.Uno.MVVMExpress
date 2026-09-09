@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Plugin.Uno.MVVMExpress.Navigation.Tests</RootNamespace>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Plugin.Uno.MVVMExpress\Plugin.Uno.MVVMExpress.csproj" />
+    <ProjectReference Include="..\..\src\Plugin.Uno.MVVMExpress.Navigation\Plugin.Uno.MVVMExpress.Navigation.csproj" />
+    <ProjectReference Include="..\..\src\Plugin.Uno.MVVMExpress.Testing\Plugin.Uno.MVVMExpress.Testing.csproj" />
+  </ItemGroup>
+
+</Project>

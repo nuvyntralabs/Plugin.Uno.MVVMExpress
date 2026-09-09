@@ -1,0 +1,52 @@
+{
+  "name": "uno-mvvmexpress",
+  "displayName": "Uno MVVMExpress",
+  "description": "Create Uno MVVMExpress apps and pages via dotnet new. Templates stay in Plugin.Uno.MVVMExpress.Templates.",
+  "version": "1.0.0",
+  "publisher": "nuvyntralabs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuvyntralabs/Plugin.Uno.MVVMExpress.git"
+  },
+  "homepage": "https://github.com/nuvyntralabs/Plugin.Uno.MVVMExpress/tree/main/extensions",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "uno",
+    "mvvm",
+    "mvvmexpress",
+    "dotnet",
+    "templates"
+  ],
+  "activationEvents": [
+    "onCommand:unomvvmexpress.createApp",
+    "onCommand:unomvvmexpress.addPage"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "unomvvmexpress.createApp",
+        "title": "Uno MVVMExpress: Create New App"
+      },
+      {
+        "command": "unomvvmexpress.addPage",
+        "title": "Uno MVVMExpress: Add Page"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.5.0"
+  }
+}

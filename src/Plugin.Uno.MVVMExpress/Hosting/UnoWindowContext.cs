@@ -15,6 +15,7 @@ public static class UnoWindowContext
 
     public static IWindowContext For(Window window)
     {
+        UnoPlatformSupport.EnsureWindowHost();
         ArgumentNullException.ThrowIfNull(window);
         Track(window);
         return Map.GetValue(window, static _ => new WindowContext($"window-{Interlocked.Increment(ref _next)}"));

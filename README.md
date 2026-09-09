@@ -4,7 +4,7 @@ Modular MVVM for **Uno Platform** on .NET 10: ViewModels, async commands, Frame 
 
 **Product:** MVVMExpress (Uno Platform family)
 **Package prefix:** `Plugin.Uno.MVVMExpress`
-**Status:** `0.1.0-preview`
+**Status:** `1.0.0`
 **This is not** Plugin.Maui.MVVMExpress, Plugin.Wpf.MVVMExpress, or the other desktop families. Independent port — no PackageReference to those packages.
 
 [![NuGet](https://img.shields.io/nuget/v/Plugin.Uno.MVVMExpress.Core.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Uno.MVVMExpress.Core)
@@ -29,6 +29,16 @@ builder.Services.UseUnoMvvmExpress(o => o
 ```
 
 There is no Shell host. Use a `Frame` named `NavigationHost`.
+
+## Templates and IDE extensions
+
+| Host | How |
+| --- | --- |
+| CLI | `Plugin.Uno.MVVMExpress.Templates` |
+| Visual Studio Code | Search Uno Platform MVVMExpress |
+| Visual Studio 2022+ | Search Uno Platform MVVMExpress |
+
+Extensions install the NuGet template pack and run `dotnet new`. Marketplace publish is manual from the `ide-extensions` workflow artifact.
 
 ## Templates
 

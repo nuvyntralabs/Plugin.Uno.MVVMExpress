@@ -1,5 +1,9 @@
 <Project>
   <PropertyGroup>
-    <UnoMvvmExpressVersion>0.1.0-preview</UnoMvvmExpressVersion>
+    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <UnoMvvmExpressVersion>1.0.0</UnoMvvmExpressVersion>
   </PropertyGroup>
 </Project>
