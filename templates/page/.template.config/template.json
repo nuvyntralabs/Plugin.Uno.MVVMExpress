@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Niladri Prasad Padhy",
+  "classifications": ["Uno Platform", "MVVM"],
+  "identity": "Plugin.Uno.MVVMExpress.Page",
+  "name": "Uno Platform MVVMExpress Page",
+  "shortName": "uno-mvvmexpress-page",
+  "sourceName": "Feature"
+}

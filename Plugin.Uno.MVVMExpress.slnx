@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Plugin.Uno.MVVMExpress.Core/Plugin.Uno.MVVMExpress.Core.csproj" />
+    <Project Path="src/Plugin.Uno.MVVMExpress/Plugin.Uno.MVVMExpress.csproj" />
+    <Project Path="src/Plugin.Uno.MVVMExpress.Navigation/Plugin.Uno.MVVMExpress.Navigation.csproj" />
+    <Project Path="src/Plugin.Uno.MVVMExpress.Dialogs/Plugin.Uno.MVVMExpress.Dialogs.csproj" />
+    <Project Path="src/Plugin.Uno.MVVMExpress.Validation/Plugin.Uno.MVVMExpress.Validation.csproj" />
+    <Project Path="src/Plugin.Uno.MVVMExpress.Pagination/Plugin.Uno.MVVMExpress.Pagination.csproj" />
+    <Project Path="src/Plugin.Uno.MVVMExpress.Testing/Plugin.Uno.MVVMExpress.Testing.csproj" />
+    <Project Path="src/Plugin.Uno.MVVMExpress.Templates/Plugin.Uno.MVVMExpress.Templates.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Plugin.Uno.MVVMExpress.Core.Tests/Plugin.Uno.MVVMExpress.Core.Tests.csproj" />
+    <Project Path="tests/Plugin.Uno.MVVMExpress.Validation.Tests/Plugin.Uno.MVVMExpress.Validation.Tests.csproj" />
+    <Project Path="tests/Plugin.Uno.MVVMExpress.Pagination.Tests/Plugin.Uno.MVVMExpress.Pagination.Tests.csproj" />
+    <Project Path="tests/Plugin.Uno.MVVMExpress.Templates.Tests/Plugin.Uno.MVVMExpress.Templates.Tests.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/Playground/Plugin.Uno.MVVMExpress.Playground.csproj" />
+  </Folder>
+</Solution>

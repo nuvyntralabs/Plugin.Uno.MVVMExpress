@@ -1,0 +1,26 @@
+<Project Sdk="Uno.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net10.0;net10.0-desktop</TargetFrameworks>
+    <UnoSingleProject>true</UnoSingleProject>
+    <OutputType>Library</OutputType>
+    <GenerateLibraryLayout>true</GenerateLibraryLayout>
+    <RootNamespace>Plugin.Uno.MVVMExpress</RootNamespace>
+    <AssemblyName>Plugin.Uno.MVVMExpress</AssemblyName>
+    <PackageId>Plugin.Uno.MVVMExpress</PackageId>
+    <PackageIcon>icon.png</PackageIcon>
+    <Title>Uno MVVMExpress host — DI, dispatcher, lifecycle</Title>
+    <Description>Uno Platform host for MVVMExpress: UseUnoMvvmExpress, UnoDispatcherMainThread, window context, and Loaded/Unloaded ViewModel lifecycle. Depends on Plugin.Uno.MVVMExpress.Core.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Plugin.Uno.MVVMExpress.Core\Plugin.Uno.MVVMExpress.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\nuget.png" Pack="true" PackagePath="icon.png" />
+  </ItemGroup>
+</Project>

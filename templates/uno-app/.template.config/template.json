@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Niladri Prasad Padhy",
+  "classifications": ["Uno Platform", "MVVM", "MauiEssentials"],
+  "identity": "Plugin.Uno.MVVMExpress.App",
+  "name": "Uno Platform MVVMExpress App",
+  "shortName": "uno-mvvmexpress",
+  "sourceName": "App1",
+  "preferNameDirectory": true
+}

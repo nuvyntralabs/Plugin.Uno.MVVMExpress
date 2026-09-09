@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Plugin.Uno.MVVMExpress.Templates.Tests</RootNamespace>
+  </PropertyGroup>
+</Project>

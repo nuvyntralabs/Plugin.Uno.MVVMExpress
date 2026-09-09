@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<linker>
+  <assembly fullname="Plugin.Uno.MVVMExpress.Core">
+    <type fullname="Plugin.Uno.MVVMExpress.Forms.FormViewModel" preserve="all" />
+    <type fullname="Plugin.Uno.MVVMExpress.Forms.FormField`1" preserve="all" />
+    <type fullname="Plugin.Uno.MVVMExpress.Hosting.IModule" preserve="all" />
+    <type fullname="Plugin.Uno.MVVMExpress.Navigation.INavigator" preserve="all" />
+    <type fullname="Plugin.Uno.MVVMExpress.Navigation.IPageNavigator" preserve="all" />
+    <type fullname="Plugin.Uno.MVVMExpress.Generated.GeneratedRegistrationHooks" preserve="all" />
+  </assembly>
+</linker>

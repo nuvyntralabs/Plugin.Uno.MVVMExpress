@@ -1,0 +1,14 @@
+# Plugin.Uno.MVVMExpress
+
+Independent Uno Platform MVVM framework. Not a MAUI package.
+
+- NuGet: https://www.nuget.org/packages/Plugin.Uno.MVVMExpress.Core
+- GitHub: https://github.com/nuvyntralabs/Plugin.Uno.MVVMExpress
+- Docs: https://nuvyntralabs.github.io/packages/plugin-uno-mvvmexpress/
+- Install: `dotnet add package Plugin.Uno.MVVMExpress`
+- Register: `builder.Services.UseUnoMvvmExpress(o => o.UseFrameNavigation(...).UseDialogs())`
+- Version: 0.1.0-preview
+- TFMs: net10.0 (Core) and net10.0;net10.0-desktop (host)
+- Template: `dotnet new install Plugin.Uno.MVVMExpress.Templates` then `dotnet new uno-mvvmexpress`
+
+Do not use when the app is MAUI (use Plugin.Maui.MVVMExpress) or when CommunityToolkit.Mvvm properties/commands are enough.

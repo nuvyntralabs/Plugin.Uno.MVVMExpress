@@ -1,0 +1,25 @@
+<Project Sdk="Uno.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net10.0;net10.0-desktop</TargetFrameworks>
+    <UnoSingleProject>true</UnoSingleProject>
+    <OutputType>Library</OutputType>
+    <GenerateLibraryLayout>true</GenerateLibraryLayout>
+    <RootNamespace>Plugin.Uno.MVVMExpress.Navigation</RootNamespace>
+    <AssemblyName>Plugin.Uno.MVVMExpress.Navigation</AssemblyName>
+    <PackageId>Plugin.Uno.MVVMExpress.Navigation</PackageId>
+    <PackageIcon>icon.png</PackageIcon>
+    <Title>Uno Platform MVVMExpress — Frame navigation</Title>
+    <Description>UnoFrameNavigator</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Plugin.Uno.MVVMExpress\Plugin.Uno.MVVMExpress.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\nuget.png" Pack="true" PackagePath="icon.png" />
+  </ItemGroup>
+</Project>
