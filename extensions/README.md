@@ -15,14 +15,14 @@ Requires the .NET SDK on PATH. Extension version is `1.0.0`, same as Plugin.Uno.
 
 ## Install from Marketplace
 
-Search **Uno MVVMExpress** and install:
+Search **Plugin.Uno.MVVMExpress** (VS Code) or **Uno MVVMExpress** (Visual Studio) and install:
 
 | Host | Marketplace |
 | --- | --- |
-| Visual Studio Code | [Uno MVVMExpress](https://marketplace.visualstudio.com/search?term=Uno%20MVVMExpress&target=VSCode&category=All%20categories&sortBy=Relevance) |
+| Visual Studio Code | [Plugin.Uno.MVVMExpress](https://marketplace.visualstudio.com/search?term=Plugin.Uno.MVVMExpress&target=VSCode&category=All%20categories&sortBy=Relevance) |
 | Visual Studio 2022+ | [Uno MVVMExpress](https://marketplace.visualstudio.com/search?term=Uno%20MVVMExpress&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance) |
 
-In the editor: **Extensions** → search **Uno MVVMExpress** → **Install**. Then **Uno MVVMExpress: Create New App** / **Add Page** (VS Code) or **Tools → Uno MVVMExpress** (Visual Studio).
+In the editor: **Extensions** → search **Plugin.Uno.MVVMExpress** (VS Code) or **Uno MVVMExpress** (Visual Studio) → **Install**. Then **Uno MVVMExpress: Create New App** / **Add Page** (VS Code) or **Tools → Uno MVVMExpress** (Visual Studio).
 
 ## Install (sideload)
 

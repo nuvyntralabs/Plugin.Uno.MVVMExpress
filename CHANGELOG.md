@@ -3,7 +3,7 @@
 ## 1.0.0
 
 - First stable release. Full app templates, IDE extensions, host/navigator tests, and known limitations.
-- VS Code Marketplace id is `nuvyntralabs.plugin-uno-mvvmexpress` (`uno-mvvmexpress` was reserved after a deleted listing).
+- VS Code Marketplace id is `nuvyntralabs.plugin-uno-mvvmexpress` with display name **Plugin.Uno.MVVMExpress** (`uno-mvvmexpress` / **Uno MVVMExpress** were reserved after a deleted listing).
 
 ## 0.1.0-preview
 

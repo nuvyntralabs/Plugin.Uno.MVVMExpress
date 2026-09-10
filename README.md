@@ -35,7 +35,7 @@ There is no Shell host. Use a `Frame` named `NavigationHost`.
 | Host | How |
 | --- | --- |
 | CLI | `Plugin.Uno.MVVMExpress.Templates` |
-| Visual Studio Code | Search Uno Platform MVVMExpress |
+| Visual Studio Code | Search Plugin.Uno.MVVMExpress |
 | Visual Studio 2022+ | Search Uno Platform MVVMExpress |
 
 Extensions install the NuGet template pack and run `dotnet new`. Marketplace publish is manual from the `ide-extensions` workflow artifact.
