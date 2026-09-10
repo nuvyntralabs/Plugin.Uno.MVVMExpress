@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.Shell.Interop;
 namespace NuvyntraLabs.UnoMVVMExpress.VisualStudio;
 
 [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-[InstalledProductRegistration("Uno MVVMExpress", "Create Uno MVVMExpress apps and pages from Plugin.Uno.MVVMExpress.Templates.", "1.0.0")]
+[InstalledProductRegistration("Uno MVVMExpress", "Create Uno MVVMExpress apps and pages from Plugin.Uno.MVVMExpress.Templates.", "1.0.1")]
 [ProvideMenuResource("Menus.ctmenu", 1)]
 [ProvideAutoLoad(UIContextGuids80.NoSolution, PackageAutoLoadFlags.BackgroundLoad)]
 [ProvideAutoLoad(UIContextGuids80.SolutionExists, PackageAutoLoadFlags.BackgroundLoad)]
