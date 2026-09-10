@@ -17,7 +17,7 @@ print(match.group(1))
 mkdir -p "$dist"
 
 echo "Packing VS Code extension $version"
-"$root/vscode/pack.sh" "$dist/nuvyntralabs.uno-mvvmexpress-${version}.vsix"
+"$root/vscode/pack.sh" "$dist/nuvyntralabs.plugin-uno-mvvmexpress-${version}.vsix"
 
 echo "Packing Visual Studio VSIX $version"
 "$root/visualstudio/pack-vsix.sh" "$dist/nuvyntralabs.UnoMVVMExpress.VisualStudio.${version}.vsix"

@@ -30,7 +30,7 @@ Packed installers (version `1.0.0`) are in [`dist/`](dist/):
 
 | Host | File | Install |
 | --- | --- | --- |
-| Visual Studio Code | `dist/nuvyntralabs.uno-mvvmexpress-1.0.0.vsix` | `code --install-extension extensions/dist/nuvyntralabs.uno-mvvmexpress-1.0.0.vsix` |
+| Visual Studio Code | `dist/nuvyntralabs.plugin-uno-mvvmexpress-1.0.0.vsix` | `code --install-extension extensions/dist/nuvyntralabs.plugin-uno-mvvmexpress-1.0.0.vsix` |
 | Visual Studio 2022+ | `dist/nuvyntralabs.UnoMVVMExpress.VisualStudio.1.0.0.vsix` | Double-click the `.vsix`, or **Extensions → Manage Extensions → Install from VSIX…** |
 
 After Visual Studio install, the package loads in the background and installs `Plugin.Uno.MVVMExpress.Templates`, so **File → New → Project** lists **MVVMExpress Uno App**. **Tools → Uno MVVMExpress** is present after install.
@@ -57,10 +57,10 @@ That run uploads the `.vsix` files as Actions artifacts. There is no Marketplace
 
 | Artifact | Listing |
 | --- | --- |
-| `vscode-UnoMVVMExpress` | Visual Studio Code / Cursor — `nuvyntralabs.uno-mvvmexpress` |
+| `vscode-UnoMVVMExpress` | Visual Studio Code / Cursor — `nuvyntralabs.plugin-uno-mvvmexpress` |
 | `vsix-UnoMVVMExpress` | Visual Studio 2022+ — **Uno MVVMExpress for Visual Studio** |
 
-Open the run → **Artifacts** → download the VSIX → update the matching listing at [Marketplace manage](https://marketplace.visualstudio.com/manage). Do not create a new Visual Studio listing after the first publish.
+Open the run → **Artifacts** → download the VSIX → update the matching listing at [Marketplace manage](https://marketplace.visualstudio.com/manage). The VS Code id is `nuvyntralabs.plugin-uno-mvvmexpress` because Marketplace reserved `uno-mvvmexpress` after a deleted listing. Do not create a new Visual Studio listing after the first publish.
 
 Bump `Directory.Build.props` `Version` and the extension version fields together (the alignment job lists every file). Do not run `vsce publish` or `VsixPublisher` from a laptop.
 

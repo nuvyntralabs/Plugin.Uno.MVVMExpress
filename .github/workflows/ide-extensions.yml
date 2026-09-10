@@ -60,14 +60,14 @@ jobs:
           version="${{ needs.version-align.outputs.version }}"
           mkdir -p artifacts
           chmod +x extensions/vscode/pack.sh
-          ./extensions/vscode/pack.sh "$PWD/artifacts/nuvyntralabs.uno-mvvmexpress-${version}.vsix"
+          ./extensions/vscode/pack.sh "$PWD/artifacts/nuvyntralabs.plugin-uno-mvvmexpress-${version}.vsix"
 
       - name: Upload VS Code VSIX
         id: upload
         uses: actions/upload-artifact@v4
         with:
           name: vscode-UnoMVVMExpress
-          path: artifacts/nuvyntralabs.uno-mvvmexpress-*.vsix
+          path: artifacts/nuvyntralabs.plugin-uno-mvvmexpress-*.vsix
           if-no-files-found: error
           retention-days: 14
 

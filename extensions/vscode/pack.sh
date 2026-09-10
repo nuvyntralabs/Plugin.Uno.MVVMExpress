@@ -15,7 +15,7 @@ if match is None:
 print(match.group(1))
 ")"
 if [ -z "$out_vsix" ]; then
-  out_vsix="$root/../dist/nuvyntralabs.uno-mvvmexpress-${version}.vsix"
+  out_vsix="$root/../dist/nuvyntralabs.plugin-uno-mvvmexpress-${version}.vsix"
 fi
 mkdir -p "$(dirname "$out_vsix")"
 if [ ! -f "$root/LICENSE" ]; then
