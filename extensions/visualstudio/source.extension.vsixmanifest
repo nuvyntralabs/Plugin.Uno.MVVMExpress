@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="nuvyntralabs.UnoMVVMExpress.VisualStudio" Version="1.0.0" Language="en-US" Publisher="Nuvyntra Labs" />
+    <Identity Id="nuvyntralabs.UnoMVVMExpress.VisualStudio" Version="1.0.1" Language="en-US" Publisher="Nuvyntra Labs" />
     <DisplayName>Uno MVVMExpress for Visual Studio</DisplayName>
     <Description xml:space="preserve">Install Plugin.Uno.MVVMExpress.Templates and create Uno MVVMExpress apps and pages via dotnet new.</Description>
     <MoreInfo>https://github.com/nuvyntralabs/Plugin.Uno.MVVMExpress</MoreInfo>

@@ -4,7 +4,7 @@ Modular MVVM for **Uno Platform** on .NET 10: ViewModels, async commands, Frame 
 
 **Product:** MVVMExpress (Uno Platform family)
 **Package prefix:** `Plugin.Uno.MVVMExpress`
-**Status:** `1.0.0`
+**Status:** `1.0.1`
 **This is not** Plugin.Maui.MVVMExpress, Plugin.Wpf.MVVMExpress, or the other desktop families. Independent port — no PackageReference to those packages.
 
 [![NuGet](https://img.shields.io/nuget/v/Plugin.Uno.MVVMExpress.Core.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Uno.MVVMExpress.Core)

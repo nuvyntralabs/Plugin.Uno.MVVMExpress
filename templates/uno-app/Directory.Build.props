@@ -4,6 +4,6 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
-    <UnoMvvmExpressVersion>1.0.0</UnoMvvmExpressVersion>
+    <UnoMvvmExpressVersion>1.0.1</UnoMvvmExpressVersion>
   </PropertyGroup>
 </Project>

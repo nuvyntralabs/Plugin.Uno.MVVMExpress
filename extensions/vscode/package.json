@@ -2,7 +2,7 @@
   "name": "plugin-uno-mvvmexpress",
   "displayName": "Plugin.Uno.MVVMExpress",
   "description": "Create Uno MVVMExpress apps and pages via dotnet new. Templates stay in Plugin.Uno.MVVMExpress.Templates.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "nuvyntralabs",
   "license": "MIT",
   "repository": {

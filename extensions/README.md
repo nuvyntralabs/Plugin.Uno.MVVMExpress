@@ -11,7 +11,7 @@ This is not the MAUI MVVMExpress extension.
 
 After the template pack is installed, Visual Studio’s **File → New → Project** lists **MVVMExpress Uno App** (`ide.host.json` on the project template). **Add → New Item** lists **MVVMExpress Uno Page**.
 
-Requires the .NET SDK on PATH. Extension version is `1.0.0`, same as Plugin.Uno.MVVMExpress.
+Requires the .NET SDK on PATH. Extension version is `1.0.1`, same as Plugin.Uno.MVVMExpress.
 
 ## Install from Marketplace
 
@@ -26,12 +26,12 @@ In the editor: **Extensions** → search **Plugin.Uno.MVVMExpress** (VS Code) or
 
 ## Install (sideload)
 
-Packed installers (version `1.0.0`) are in [`dist/`](dist/):
+Packed installers (version `1.0.1`) are in [`dist/`](dist/):
 
 | Host | File | Install |
 | --- | --- | --- |
-| Visual Studio Code | `dist/nuvyntralabs.plugin-uno-mvvmexpress-1.0.0.vsix` | `code --install-extension extensions/dist/nuvyntralabs.plugin-uno-mvvmexpress-1.0.0.vsix` |
-| Visual Studio 2022+ | `dist/nuvyntralabs.UnoMVVMExpress.VisualStudio.1.0.0.vsix` | Double-click the `.vsix`, or **Extensions → Manage Extensions → Install from VSIX…** |
+| Visual Studio Code | `dist/nuvyntralabs.plugin-uno-mvvmexpress-1.0.1.vsix` | `code --install-extension extensions/dist/nuvyntralabs.plugin-uno-mvvmexpress-1.0.1.vsix` |
+| Visual Studio 2022+ | `dist/nuvyntralabs.UnoMVVMExpress.VisualStudio.1.0.1.vsix` | Double-click the `.vsix`, or **Extensions → Manage Extensions → Install from VSIX…** |
 
 After Visual Studio install, the package loads in the background and installs `Plugin.Uno.MVVMExpress.Templates`, so **File → New → Project** lists **MVVMExpress Uno App**. **Tools → Uno MVVMExpress** is present after install.
 
