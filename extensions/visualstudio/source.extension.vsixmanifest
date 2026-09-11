@@ -4,7 +4,7 @@
     <Identity Id="nuvyntralabs.UnoMVVMExpress.VisualStudio" Version="1.0.1" Language="en-US" Publisher="Nuvyntra Labs" />
     <DisplayName>Uno MVVMExpress for Visual Studio</DisplayName>
     <Description xml:space="preserve">Install Plugin.Uno.MVVMExpress.Templates and create Uno MVVMExpress apps and pages via dotnet new.</Description>
-    <MoreInfo>https://github.com/nuvyntralabs/Plugin.Uno.MVVMExpress</MoreInfo>
+    <MoreInfo>https://nuvyntralabs.github.io/packages/plugin-uno-mvvmexpress/</MoreInfo>
     <License>LICENSE</License>
     <Tags>Uno;MVVM;templates;dotnet new;mvvmexpress</Tags>
   </Metadata>
